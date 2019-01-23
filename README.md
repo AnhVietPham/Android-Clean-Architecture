@@ -1,1 +1,1 @@
-basic-clean-architecture
+Android Clean Architecture
