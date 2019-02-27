@@ -35,4 +35,8 @@ ext {
             contraintLayout: "com.android.support.constraint:constraint-layout:${contraintLayout}",
             junit          : "junit:junit:${jUnitVersion}",
     ]
+
+    presentaionDependencies= [
+            kotlinVersion : "org.jetbrains.kotlin:kotlin-stdlib-jdk8:${kotlinVersion}",
+    ]
 }
