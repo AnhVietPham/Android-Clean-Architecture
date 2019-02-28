@@ -27,6 +27,10 @@ ext {
     //Testing
     jUnitVersion = '4.12'
 
+    //Rx
+    rxKotlinVersion = '2.2.0'
+    rxAndroidVersion = '2.0.1'
+
     uiDependencies = [
             recyclerView   : "com.android.support:recyclerview-v7:${supportLibrary}",
             design         : "com.android.support:design:${supportLibrary}",
@@ -38,5 +42,10 @@ ext {
 
     presentaionDependencies= [
             kotlinVersion : "org.jetbrains.kotlin:kotlin-stdlib-jdk8:${kotlinVersion}",
+    ]
+
+    domainDependencies = [
+            rxKotlin       : "io.reactivex.rxjava2:rxkotlin:${rxKotlinVersion}",
+            kotlin         : "org.jetbrains.kotlin:kotlin-stdlib-jdk8:${kotlinVersion}",
     ]
 }

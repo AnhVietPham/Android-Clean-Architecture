@@ -4,8 +4,8 @@ apply plugin: 'kotlin-android-extensions'
 
 
 dependencies {
-    def presentaionDependencies = rootProject.ext.presentaionDependencies
-    implementation presentaionDependencies.kotlinVersion
+    def presentationDependencies = rootProject.ext.presentaionDependencies
+    implementation presentationDependencies.kotlinVersion
 }
 
 sourceCompatibility = "7"
