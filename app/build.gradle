@@ -35,6 +35,12 @@ dependencies {
     implementation uiDependencies.conductorVersion
     implementation uiDependencies.conductorSupportVersion
     implementation uiDependencies.conductorArchlifecycleVersion
+    implementation uiDependencies.koinAndroid
+    implementation uiDependencies.timberVersion
 
     testImplementation uiDependencies.junit
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+}
+repositories {
+    mavenCentral()
 }

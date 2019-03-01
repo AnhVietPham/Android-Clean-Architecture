@@ -24,6 +24,9 @@ ext {
     //Kotlin
     kotlinVersion = '1.3.21'
 
+    //Koin-Android
+    koinAndroidVersion = '1.0.2'
+
     //Testing
     jUnitVersion = '4.12'
 
@@ -36,6 +39,9 @@ ext {
     conductorSupportVersion = '2.1.5'
     conductorArchlifecycleVersion = '2.1.5'
 
+    //Logger
+    timberVersion = '4.7.1'
+
     uiDependencies = [
             recyclerView                 : "com.android.support:recyclerview-v7:${supportLibrary}",
             design                       : "com.android.support:design:${supportLibrary}",
@@ -45,7 +51,9 @@ ext {
             junit                        : "junit:junit:${jUnitVersion}",
             conductorVersion             : "com.bluelinelabs:conductor:${conductorVersion}",
             conductorSupportVersion      : "com.bluelinelabs:conductor-support:${conductorSupportVersion}",
-            conductorArchlifecycleVersion: "com.bluelinelabs:conductor-archlifecycle:${conductorArchlifecycleVersion}"
+            conductorArchlifecycleVersion: "com.bluelinelabs:conductor-archlifecycle:${conductorArchlifecycleVersion}",
+            koinAndroid                  : "org.koin:koin-android:${koinAndroidVersion}",
+            timberVersion                : "com.jakewharton.timber:timber:${timberVersion}"
     ]
 
     presentaionDependencies = [
