@@ -32,5 +32,9 @@ dependencies {
     implementation uiDependencies.appCompat
     implementation uiDependencies.contraintLayout
 
+    implementation uiDependencies.conductorVersion
+    implementation uiDependencies.conductorSupportVersion
+    implementation uiDependencies.conductorArchlifecycleVersion
+
     testImplementation uiDependencies.junit
 }
