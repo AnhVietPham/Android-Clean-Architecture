@@ -2,7 +2,7 @@ package com.example.presentation.base
 
 import java.lang.ref.WeakReference
 
-class PresenterMvp<V : ViewMvp> {
+open class PresenterMvp<V : ViewMvp> {
     private var weakReference: WeakReference<V>? = null
     fun attachView(view: V) {
         if (!isViewAttached) {
