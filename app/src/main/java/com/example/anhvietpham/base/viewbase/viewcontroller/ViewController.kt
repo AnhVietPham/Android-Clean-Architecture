@@ -6,7 +6,7 @@ import com.bluelinelabs.conductor.Controller
 import com.example.anhvietpham.base.viewbase.lifecycleevent.ControllerLogLifecycleListener
 import org.koin.standalone.KoinComponent
 
-abstract class ViewController(bundle: Bundle?) : Controller(bundle), KoinComponent {
+abstract class ViewController(bundle: Bundle?) : Controller(bundle) {
     init {
         addLifecycleListener(ControllerLogLifecycleListener(this.javaClass.simpleName))
         addLifecycleListener(object : LifecycleListener() {
