@@ -53,7 +53,8 @@ ext {
             conductorSupportVersion      : "com.bluelinelabs:conductor-support:${conductorSupportVersion}",
             conductorArchlifecycleVersion: "com.bluelinelabs:conductor-archlifecycle:${conductorArchlifecycleVersion}",
             koinAndroid                  : "org.koin:koin-android:${koinAndroidVersion}",
-            timberVersion                : "com.jakewharton.timber:timber:${timberVersion}"
+            timberVersion                : "com.jakewharton.timber:timber:${timberVersion}",
+            kotlinVersion                : "org.jetbrains.kotlin:kotlin-stdlib-jdk8:${kotlinVersion}",
     ]
 
     presentaionDependencies = [

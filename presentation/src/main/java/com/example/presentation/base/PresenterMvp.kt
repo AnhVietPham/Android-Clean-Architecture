@@ -11,7 +11,7 @@ open class PresenterMvp<V : ViewMvp> {
         onAttachView()
     }
 
-    private fun onAttachView() {
+    protected open fun onAttachView() {
 
     }
 
@@ -21,7 +21,7 @@ open class PresenterMvp<V : ViewMvp> {
         onDetachView()
     }
 
-    private fun onDetachView() {
+    protected open fun onDetachView() {
 
     }
 

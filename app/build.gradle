@@ -29,6 +29,9 @@ android {
 dependencies {
     def uiDependencies = rootProject.ext.uiDependencies
 
+    implementation project(path: ':domain')
+    implementation project(path: ':presentation')
+
     implementation uiDependencies.appCompat
     implementation uiDependencies.contraintLayout
 
@@ -39,7 +42,7 @@ dependencies {
     implementation uiDependencies.timberVersion
 
     testImplementation uiDependencies.junit
-    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation uiDependencies.kotlinVersion
 }
 repositories {
     mavenCentral()
