@@ -1,6 +1,5 @@
 package com.example.domain.base.exception
 
-import java.lang.Exception
 
 class AppException(message: String, cause: Throwable?) : Exception(message,cause){
     var errorCode : Int = 0
