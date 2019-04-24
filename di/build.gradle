@@ -1,0 +1,10 @@
+apply plugin: 'kotlin'
+
+apply plugin: 'kotlin-android-extensions'
+
+dependencies {
+    def diDependencies = rootProject.ext.diDependencies
+    implementation diDependencies.kotlinVersion
+    implementation diDependencies.koinAndroid
+}
+
