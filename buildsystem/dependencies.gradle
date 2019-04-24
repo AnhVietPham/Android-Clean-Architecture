@@ -65,4 +65,9 @@ ext {
             rxKotlin: "io.reactivex.rxjava2:rxkotlin:${rxKotlinVersion}",
             kotlin  : "org.jetbrains.kotlin:kotlin-stdlib-jdk8:${kotlinVersion}",
     ]
+
+    diDependencies =  [
+            kotlinVersion                : "org.jetbrains.kotlin:kotlin-stdlib-jdk8:${kotlinVersion}",
+            koinAndroid                  : "org.koin:koin-android:${koinAndroidVersion}",
+    ]
 }
