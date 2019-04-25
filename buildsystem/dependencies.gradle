@@ -34,10 +34,14 @@ ext {
     rxKotlinVersion = '2.2.0'
     rxAndroidVersion = '2.0.1'
 
-    ////view base conductor
+    //view base conductor
     conductorVersion = '2.1.5'
     conductorSupportVersion = '2.1.5'
     conductorArchlifecycleVersion = '2.1.5'
+
+    //Retrofit
+    retrofitVersion = '2.5.0'
+    gsonVersion = '2.8.5'
 
     //Logger
     timberVersion = '4.7.1'
@@ -66,8 +70,13 @@ ext {
             kotlin  : "org.jetbrains.kotlin:kotlin-stdlib-jdk8:${kotlinVersion}",
     ]
 
-    diDependencies =  [
-            kotlinVersion                : "org.jetbrains.kotlin:kotlin-stdlib-jdk8:${kotlinVersion}",
-            koinAndroid                  : "org.koin:koin-android:${koinAndroidVersion}",
+    dataDependencies = [
+            retrofit: "com.squareup.retrofit2:retrofit:${retrofitVersion}",
+            gson    : "com.squareup.retrofit2:converter-gson:${gsonVersion}"
+    ]
+
+    diDependencies = [
+            kotlinVersion: "org.jetbrains.kotlin:kotlin-stdlib-jdk8:${kotlinVersion}",
+            koinAndroid  : "org.koin:koin-android:${koinAndroidVersion}",
     ]
 }
