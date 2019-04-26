@@ -41,7 +41,7 @@ ext {
 
     //Retrofit
     retrofitVersion = '2.5.0'
-    gsonVersion = '2.8.5'
+    converterGsonVersion = '2.5.0'
 
     //Logger
     timberVersion = '4.7.1'
@@ -72,7 +72,7 @@ ext {
 
     dataDependencies = [
             retrofit: "com.squareup.retrofit2:retrofit:${retrofitVersion}",
-            gson    : "com.squareup.retrofit2:converter-gson:${gsonVersion}"
+            gson    : "com.squareup.retrofit2:converter-gson:${converterGsonVersion}"
     ]
 
     diDependencies = [
