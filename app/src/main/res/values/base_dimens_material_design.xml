@@ -44,4 +44,14 @@
     <dimen name="default_padding_margin_huge_xxx">72dp</dimen>
     <dimen name="default_padding_margin_huge_xxxh">76dp</dimen>
     <dimen name="default_padding_margin_huge_xxxx">80dp</dimen>
+
+    <!--Default icons size material design
+        - x = +12dp
+    -->
+    <dimen name="default_icon_size_small_x">12dp</dimen>
+    <dimen name="default_icon_size_small">16dp</dimen>
+    <dimen name="default_icon_size">24dp</dimen>
+    <dimen name="default_icon_size_x">36dp</dimen>
+    <dimen name="default_icon_size_xx">48dp</dimen>
+    <dimen name="default_icon_size_xxx">56dp</dimen>
 </resources>
