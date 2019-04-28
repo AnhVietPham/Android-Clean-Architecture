@@ -3,4 +3,30 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+
+    <!--Dark theme-->
+    <color name="default_color_white_alpha_0">#00ffffff</color>     <!--0% white-->
+    <color name="default_color_white_alpha_10">#10ffffff</color>    <!--10% white-->
+    <color name="default_color_white_alpha_20">#33ffffff</color>    <!--20% white-->
+    <color name="default_color_white_alpha_30">#4dffffff</color>    <!--30% white-->
+    <color name="default_color_white_alpha_40">#66ffffff</color>    <!--40% white-->
+    <color name="default_color_white_alpha_50">#80ffffff</color>    <!--50% white-->
+    <color name="default_color_white_alpha_60">#99ffffff</color>    <!--60% white-->
+    <color name="default_color_white_alpha_70">#B3ffffff</color>    <!--70% white-->
+    <color name="default_color_white_alpha_80">#CCffffff</color>    <!--80% white-->
+    <color name="default_color_white_alpha_90">#E6ffffff</color>    <!--90% white-->
+    <color name="default_color_white_alpha_100">#ffffffff</color>   <!--100% white-->
+
+    <!--Light theme-->
+    <color name="default_color_black_alpha_0">#00000000</color>     <!--0% black-->
+    <color name="default_color_black_alpha_10">#10000000</color>    <!--10% black-->
+    <color name="default_color_black_alpha_20">#33000000</color>    <!--20% black-->
+    <color name="default_color_black_alpha_30">#4D000000</color>    <!--30% black-->
+    <color name="default_color_black_alpha_40">#66000000</color>    <!--40% black-->
+    <color name="default_color_black_alpha_50">#80000000</color>    <!--50% black-->
+    <color name="default_color_black_alpha_60">#99000000</color>    <!--60% black-->
+    <color name="default_color_black_alpha_70">#B3000000</color>    <!--70% black-->
+    <color name="default_color_black_alpha_80">#CC000000</color>    <!--80% black-->
+    <color name="default_color_black_alpha_90">#E6000000</color>    <!--90% black-->
+    <color name="default_color_black_alpha_100">#FF000000</color>   <!--100% black-->
 </resources>
