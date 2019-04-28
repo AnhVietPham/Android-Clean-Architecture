@@ -5,6 +5,24 @@
     <color name="md_alert_error">@color/md_red_700</color>
     <color name="md_alert_success">@color/md_green_500</color>
 
+    <!--ICON COLOR material design-->
+    <!--Dark theme-->
+    <color name="md_icon_color_active_dark_theme">#ffffffff</color>     <!--100% white-->
+    <color name="md_icon_color_inactive_dark_theme">#8Affffff</color>   <!--54% white-->
+    <color name="md_icon_color_disabled_dark_theme">#61ffffff</color>   <!--38% white-->
+    <!--Light theme-->
+    <color name="md_icon_color_active_light_theme">#DE000000</color>    <!--87% black-->
+    <color name="md_icon_color_inactive_light_theme">#8A000000</color>  <!--54% black-->
+    <color name="md_icon_color_disabled_light_theme">#61000000</color>  <!--38% white-->
+    <!--No transparent-->
+    <color name="md_icon_color_active_white_theme_no_transparent">#212121</color>
+    <color name="md_icon_color_inactive_white_theme_no_transparent">#757575</color>
+    <color name="md_icon_color_disabled_white_theme_no_transparent">#9E9E9E</color>
+    <color name="md_icon_color_active_black_theme_no_transparent">#ffffff</color>
+    <color name="md_icon_color_inactive_black_theme_no_transparent">#8A8A8A</color>
+    <color name="md_icon_color_disabled_black_theme_no_transparent">#616161</color>
+
+
     <!--2014 Material Design color palettes-->
     <!--https://material.io/design/color/#tools-for-picking-colors-->
     <!--reds-->
